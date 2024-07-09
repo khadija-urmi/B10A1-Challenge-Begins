@@ -1,0 +1,23 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.banner-section {
+    width: 1353px;
+    height: 500px;
+    margin: 50 auto;
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+}
+
+.banner-container {
+    width: 938px;
+    margin: 0 auto;
+    padding: 25px 221px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
