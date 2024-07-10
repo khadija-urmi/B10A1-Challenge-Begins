@@ -86,17 +86,19 @@ main .current-target {
 
 main .why-development-section .development-title,
 main .inspiration-section .inspiration-title,
-main .current-target .target-title {
+main .current-target .target-title,
+main .support-session-part .support-title {
     font-size: 32px;
     font-weight: 800;
     line-height: 26px;
-    margin-top: 16px;
+    margin-top: 18px;
     margin-bottom: 24px;
 }
 
 main .why-development-section .development-content,
 main .inspiration-section .inspiration-content,
-main .current-target .target-content {
+main .current-target .target-content,
+main .support-session-part .support-info {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 32px;
@@ -227,4 +229,63 @@ main .current-target .target-content {
 
 #card3 {
     background: rgba(255, 223, 0, 0.05);
+}
+
+.support-session-part {
+    width: 100%;
+    max-width: 1070px;
+    height: 300px;
+    margin: 70px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}
+
+.support-session-info {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 28px;
+}
+
+.support-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.support-box #text-box {
+    width: 100%;
+    max-width: 548px;
+    height: 40px;
+    padding: 10px 24px;
+    text-align: center;
+    margin: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.support-box button {
+    height: 40px;
+    padding: 10px 24px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
 }
