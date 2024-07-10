@@ -73,28 +73,34 @@
     border: none;
 }
 
-/* why-web-development-section */
-.why-development-section {
+/* main section style */
+main .why-development-section,
+main .inspiration-section,
+main .current-target {
     width: 1070px;
-    height: 1312px;
-    margin: 70px auto;
+    margin: 80px auto;
     text-align: center;
-    /* border: 2px red solid; */
 }
 
-.development-title {
-    font-size: 34px;
+main .why-development-section .development-title,
+main .inspiration-section .inspiration-title,
+main .current-target .target-title {
+    font-size: 32px;
     font-weight: 800;
     line-height: 26px;
     margin-top: 16px;
     margin-bottom: 24px;
 }
 
-.development-content {
+main .why-development-section .development-content,
+main .inspiration-section .inspiration-content,
+main .current-target .target-content {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 32px;
 }
+
+/* why-web-development-section */
 
 .web-card-containers {
     display: flex;
@@ -151,29 +157,20 @@
 }
 
 /* my inspiration section */
-.inspiration-section {
-    width: 1070px;
-    margin: 80px auto;
-    text-align: center;
-}
-
-.inspiration-title {
-    font-size: 34px;
-    font-weight: 800;
-    line-height: 26px;
-    margin-top: 16px;
-    margin-bottom: 24px;
-}
-
-.inspiration-content {
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 32px;
-}
 
 .inspire-video iframe {
     width: 100%;
     height: 500px;
     border-radius: 8px;
     margin-top: 50px;
+}
+
+/* my target section */
+.skill-card {
+    margin-top: 32px;
+    border: 2px red solid;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
 }
