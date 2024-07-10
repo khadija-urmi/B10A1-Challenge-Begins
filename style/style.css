@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 .azeret-mono-normal {
@@ -115,7 +114,6 @@ main .support-session-part .support-info {
 }
 
 .web-card {
-    /* border: 3px green solid; */
     max-width: 946px;
     height: 340px;
     padding: 40px;
@@ -231,6 +229,7 @@ main .support-session-part .support-info {
     background: rgba(255, 223, 0, 0.05);
 }
 
+/* support section */
 .support-session-part {
     width: 100%;
     max-width: 1070px;
@@ -288,4 +287,18 @@ main .support-session-part .support-info {
     font-size: 16px;
     line-height: 23px;
     text-align: center;
+}
+
+/* footer */
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
+
+.social-link img {
+    width: 28px;
+    height: 28px;
+    margin-right: 22px;
 }
